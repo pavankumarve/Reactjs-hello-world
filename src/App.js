@@ -10,6 +10,8 @@ import FunctionClick from './Components/FunctionClick'
 import ClassClick from './Components/ClassClick'
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
+import Box from './Components/Box';
+
 
 
 
@@ -31,9 +33,9 @@ class App extends Component {
         {/* <Greet name='Bruce' heroName='batman'><p>This is props example</p></Greet>
 //       <Greet name='pavan' heroName='superman'><button>submit</button></Greet>
 //       <Greet name='hari' heroName='spiderman'/> */}
-        {/* //       <Welcome name='sai' heroName='spiderman'><p>welcome sai</p> </Welcome>
-//     <Welcome name='balu' heroName='batman'>welcome balu <button>submit</button> </Welcome>
-//        <Welcome name='kunda' heroName='superman'>welcome kunda </Welcome> */}
+      {/* <Welcome name='sai' heroName='spiderman'><p>welcome sai</p> </Welcome>
+     <Welcome name='balu' heroName='batman'>welcome balu <button>submit</button> </Welcome> 
+     <Welcome name='kunda' heroName='superman'>welcome kunda </Welcome> */}
 
         {/* // </div> */}
 
@@ -45,7 +47,8 @@ class App extends Component {
         {/* <ClassClick/> */}
         {/* <EventBind/> */}
         
-        <ParentComponent/>
+        {/* <ParentComponent/> */}
+        <Box/>
 
       </div>
     )
