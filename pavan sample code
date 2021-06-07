@@ -1,0 +1,24 @@
+<div>
+      <h1 style={{color: "red"}}>Hello Style!</h1>
+      <p>Start editing to see some magic happen :)</p>
+      <div>
+      <label> Gender </label>
+       <input type="radio" value="Male" name="gender" /> Male
+        <input type="radio" value="Female" checked name="gender" /> Female
+      </div>
+      <div>
+      <label> Days </label>
+      <input type='number'/>
+      </div>
+      <select name="plan" id="plan">
+        <option value="none" selected disabled hidden>
+          Select an Option
+      </option>
+        <option value="free">Free</option>
+        <option value="starter">Starter </option>
+        <option value="professional">Professional</option>
+        <option value="corporate">Corporate</option>
+    </select>
+    </div>
+  );
+}
