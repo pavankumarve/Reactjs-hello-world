@@ -1,6 +1,7 @@
 <div>
       <h1 style={{color: "red"}}>Hello Style!</h1>
       <p>Start editing to see some magic happen :)</p>
+      --------radio buttons default checked
       <div>
       <label> Gender </label>
        <input type="radio" value="Male" name="gender" /> Male
@@ -10,6 +11,9 @@
       <label> Days </label>
       <input type='number'/>
       </div>
+      
+      ---dropdown
+      <div>
       <select name="plan" id="plan">
         <option value="none" selected disabled hidden>
           Select an Option
@@ -19,6 +23,7 @@
         <option value="professional">Professional</option>
         <option value="corporate">Corporate</option>
     </select>
+    </div>
     </div>
   );
 }
